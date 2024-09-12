@@ -63,9 +63,11 @@ public class FrmProductos extends javax.swing.JInternalFrame {
         jLabel11 = new javax.swing.JLabel();
 
         setBorder(new javax.swing.border.MatteBorder(null));
+        setClosable(true);
         setIconifiable(true);
         setMaximizable(true);
         setResizable(true);
+        setTitle("Productos");
 
         jTabbedPane1.setBackground(new java.awt.Color(204, 255, 204));
 
